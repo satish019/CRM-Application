@@ -17,14 +17,17 @@ public class HomePage {
 		this.driver = driver;
 	 PageFactory.initElements(driver, this);
 }
-	
-
+	@FindBy(linkText = "Products")
+	private WebElement productLink;
 	
 	
 	
 	@FindBy(name="accountname")
     private WebElement accountname;
 	
+	public WebElement getProductLink() {
+		return productLink;
+	}
 	@FindBy(xpath="//input[@title='Save [Alt+S]']")
 	private WebElement SaveBtn;
 	
