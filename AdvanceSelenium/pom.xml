@@ -13,7 +13,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>   
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>FullRegression.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
