@@ -6,9 +6,7 @@
   
   <profiles>
      <profile>
-      <id>
-      FR
-      </id>
+      <id>FR</id>
         <build>
    
      <plugins>
